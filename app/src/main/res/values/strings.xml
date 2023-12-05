@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">English Uzbek Dictionary</string>
+
+    <string name="ap_info">"
+ Dictionary Ilovasi
+Ushbu dastur Gita dasturchilar akademiyasi talabasi tomonidan yaratilgan. Ushbu ilovadan foydalanib, siz Ingliz tilidagi so'zlarni O'zbek tilidagi tarjiymasini olishingiz mumkin.
+
+   Framework
+* Android Studiyasi
+• Kotlin
+* Ishlatilgan texnologiyalar:
+* TextToSpeech
+• Sqlite open helper
+• Navigation menu
+• Lottie animations"</string>
+
+</resources>

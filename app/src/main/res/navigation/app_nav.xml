@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/startProgramma">
+
+
+    <fragment
+        android:id="@+id/startProgramma"
+        android:name="uz.boxodir.dictionary.pages.StartProgramma"
+        android:label="StartProgramma"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_startProgramma_to_homeFragment2"
+            app:destination="@id/homeFragment2" />
+        <action
+            android:id="@+id/action_startProgramma_to_infoScreen"
+            app:destination="@id/infoScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="uz.boxodir.dictionary.pages.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_homeFragment2_to_meaningWordFragment"
+            app:destination="@id/meaningWordFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_favouritesFragment"
+            app:destination="@id/favouritesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favouritesFragment"
+        android:name="uz.boxodir.dictionary.pages.FavouritesFragment"
+        android:label="FavouritesFragment"
+        tools:layout="@layout/activity_favourites">
+        <action
+            android:id="@+id/action_favouritesFragment_to_meaningWordFragment"
+            app:destination="@id/meaningWordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/meaningWordFragment"
+        android:name="uz.boxodir.dictionary.pages.MeaningWordFragment"
+        android:label="MeaningWordFragment"
+        tools:layout="@layout/dialog_word" />
+    <fragment
+        tools:layout="@layout/info_fragment"
+        android:id="@+id/infoScreen"
+        android:name="uz.boxodir.dictionary.pages.InfoScreen"
+        android:label="InfoScreen" />
+</navigation>

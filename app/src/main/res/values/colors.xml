@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white2">#80FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="main_screen">#BFC48B3C</color>
+    <color name="info_screen">#C48B3C</color>
+    <color name="splash_screen">#C48B3C</color>
+    <color name="dastur_haqida">#E1C9B3</color>
+    <color name="home_screen">#ABE1DBB3</color>
+</resources>
